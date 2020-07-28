@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:white !important;
+}
+.navbar{
+    padding: 20px;
+    position: relative;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.nav-item{
+    padding: 15px;
+    position: relative;
+}
+.nav-link:hover{
+    border-bottom: 1px solid black;
+   position: relative;
+}
+
+.navbar.sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+  }
+
+  
+.dropdown-header{
+    text-align: justify;
+    font-weight: 600;
+    font-size: 17px;
+
+}
+
+.dropdown-menu{
+   text-align: justify;
+   height: auto;
+}
+
+#productmenu,#homemenu{
+    padding: 40px;
+    width: max-content;
+   
+}
+
+#productmenu .dropdown-items{
+    padding: 40px;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.carousel-image{
+    height:100%;
+}
+
+.heading1{
+    margin: 70px 0px 50px 0;
+    font-family: serif;
+    font-weight: 700;
+}
+.description1{
+    font-size: 16px;
+    
+}
+
+.form-control,.form-control:focus{
+    padding: 10px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid lightgrey;
+    background-color:#f2fafc;
+    color: black;
+    box-shadow: none;
+}
+
+::placeholder{
+    font-size: 12px;
+
+}
+.btn-primary,.btn-light{
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+
+.ImageCollection{
+    text-align: center;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.img-fluid{
+    text-align: center;
+    object-fit: contain;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.img-fluid:hover{
+    transform:translateY(-4px);
+    transition: .5s;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 50px white;
+    cursor: pointer;
+}
+
+.name{
+    text-align: center;
+    font: outline;
+    font-size: 16px;
+    margin-top: 5px;
+    position: relative;
+    font-weight:600;
+    font-family: serif;
+    letter-spacing: 1.5px;
+
+}
+
+.heading2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 65px 0 25px 0;
+}
+
+.companyLogo{
+    text-align: center;
+    margin: 40px 0 20px 0;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.doublequote{
+    width: 70px;
+    text-align: center;
+}
+
+.profilePic{
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+
+h2{
+	position: relative;
+}
+h2::after{
+	content: "";
+	width: 130px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #FFC107;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.carousel-inner .carousel-item .img-box{
+	width: 135px;
+	height: 135px;
+}
+
+.indicators1{
+	top: 320px;
+}
+@media (min-width: 320px) and (max-width: 640px) {
+	.carousel-inner .carousel-item p{
+		font-size: 14px;
+	}
+	
+ 	.indicators1{
+		top: 400px;
+	}
+}
+
+
+.pressnews{
+    margin-top: 100px;
+}
+
+.pressheading{
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: serif;
+}
+
+.presstitle{
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.pressdescription{
+    font-size: 14px;
+}
+
+.video{
+    margin-top: 80px;
+}
+
+.videotitle{
+    margin-bottom: 40px;
+    font-family: serif;
+    letter-spacing: 1.8px;
+}
+
+.contactUs{
+    margin-top: 100px;
+   
+}
+
+.contactheading{
+    font-family: serif;
+}
+
+.contact{
+    font-size: 14px;
+}
+
+.form1{
+    margin-left: 25%;
+    width: 50%;
+}
+
+#footer{
+   padding: 40px;
+    margin-top: 60px;
+    background-color: burlywood;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.footertitle{
+    font-family: serif;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color:brown;
+}
+
+.categories{
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+    letter-spacing: 1.5px;
+}
